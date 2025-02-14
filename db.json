@@ -1,0 +1,53 @@
+{
+  "myPets": [
+    {
+      "id": 1,
+      "name": "Bella",
+      "price": 1000,
+      "description": "Bella is a cute dog.",
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "name": "Charlie",
+      "price": 2000,
+      "description": "Charlie is a smart cat.",
+      "priority": 3
+    },
+    {
+      "id": 3,
+      "name": "Luna",
+      "price": 3000,
+      "description": "Luna is a lovely rabbit.",
+      "priority": 3
+    },
+    {
+      "id": 4,
+      "name": "Max",
+      "price": 4000,
+      "description": "Max is a strong horse.",
+      "priority": 2
+    },
+    {
+      "id": 5,
+      "name": "Lucy",
+      "price": 5000,
+      "description": "Lucy is a beautiful bird.",
+      "priority": 3
+    },
+    {
+      "id": 6,
+      "name": "Daisy",
+      "price": 6000,
+      "description": "Daisy is a friendly fish.",
+      "priority": 3
+    },
+    {
+      "id": 7,
+      "name": "Bailey",
+      "price": 7000,
+      "description": "Bailey is a loyal hamster.",
+      "priority": 2
+    }
+  ]
+}
