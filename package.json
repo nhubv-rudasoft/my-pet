@@ -11,8 +11,11 @@
     "api": "json-server --watch db.json --port 8080"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "@tanstack/react-query": "^5.66.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
     "react-router-dom": "^7.1.5"
   },
   "devDependencies": {

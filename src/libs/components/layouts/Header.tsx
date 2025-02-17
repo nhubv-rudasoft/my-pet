@@ -1,9 +1,9 @@
-import {UserProfile} from '../../types/user.ts';
 import appLogo from '../../../assets/logo.png';
-import {getFirstLetter} from '../../../utils/helpers.ts';
+import {UserProfileResponse} from '../../types/userType.ts';
+import {getFirstLetter} from '../../../utils';
 
 interface HeaderProps {
-  userProfile: UserProfile;
+  userProfile: UserProfileResponse;
 }
 
 export const Header = ({userProfile}: HeaderProps) => {
