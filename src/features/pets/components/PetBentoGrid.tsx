@@ -5,7 +5,7 @@ import {BentoGridItemLevel2} from './BentoGridItemLevel2.tsx';
 import {useMyPets} from '../hooks';
 
 export default function PetBentoGrid() {
-  const {data: pets} = useMyPets();
+  const {pets} = useMyPets();
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 grid-rows-4 sm:grid-rows-3 gap-5 sm:gap-3 p-2 sm:p-4">

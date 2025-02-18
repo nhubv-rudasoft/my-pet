@@ -1,5 +1,5 @@
 import petPhoto from '../../../assets/cat.png';
-import {PetItem} from '../../../libs/types/petType.ts';
+import {PetItem} from '../types/petType.ts';
 import {formatPrice} from '../../../utils';
 
 interface BentoGridItemLevel1Props {

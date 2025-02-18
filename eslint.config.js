@@ -23,6 +23,8 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+        'singleQuote': ['error', 'single'],
+        'semi': ['error', 'always'],
     },
   },
 )

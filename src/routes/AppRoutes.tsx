@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import React, {StrictMode, Suspense} from 'react';
 import HomePage from '../features/home/HomePage.tsx';
 
@@ -10,12 +10,12 @@ export const AppRoutes = () => {
   return (
     <StrictMode>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage/>}/>
         <Route
           path="/profile"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <ProfilePage />
+              <ProfilePage/>
             </Suspense>
           }
         />
@@ -23,7 +23,7 @@ export const AppRoutes = () => {
           path="/pets"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <PetsPage />
+              <PetsPage/>
             </Suspense>
           }
         />

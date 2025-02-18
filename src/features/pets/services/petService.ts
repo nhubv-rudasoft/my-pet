@@ -1,5 +1,5 @@
-import {PetItem} from '../../../libs/types/petType.ts';
-import {Get} from '../../../app/config';
+import {PetItem} from '../types/petType.ts';
+import {Get} from '../../../app/configs';
 import {PetsConstants} from '../constants';
 
 const PETS_API_URI = PetsConstants.PETS_API_URI;
