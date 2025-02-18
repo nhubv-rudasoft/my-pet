@@ -1,6 +1,6 @@
 import {getUserProfile} from '../services/userService.ts';
 import {useAppDispatch, useAppSelector} from './storeHook.ts';
-import {setProfile} from '../slide/userSlice.ts';
+import {setProfile} from '../../app/stores/user/userSlice.ts';
 import {useQueryBase} from './queryBaseHook.ts';
 
 
