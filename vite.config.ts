@@ -14,5 +14,15 @@ export default defineConfig({
   define: {
     "process.env": process.env,
   },
-  assetsInclude: ['**/*.png']
+  assetsInclude: ['**/*.png'],
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
+    cssCodeSplit: true,
+    cssMinify: true,
+    commonjsOptions: {
+      include: [/node_modules/],
+      extensions: ['.js', '.cjs']
+    },
+  }
 })

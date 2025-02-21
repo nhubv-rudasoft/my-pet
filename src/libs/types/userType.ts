@@ -4,6 +4,11 @@ export interface UserProfile {
   firstName: string;
   lastName: string;
   avatar: string;
-  createDate?: string;
-  updateDate?: string;
+  phone: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface UserState {
+  profile: UserProfile | null;
 }

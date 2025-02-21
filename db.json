@@ -49,5 +49,16 @@
       "description": "Bailey is a loyal hamster.",
       "priority": 2
     }
-  ]
+  ],
+  "userProfile": {
+    "id": 1,
+    "name": "Michel Doe",
+    "email": "a@gmail.com",
+    "firstName": "Michel",
+    "lastName": "Doe",
+    "avatar": "https://www.w3schools.com/howto/img_avatar.png",
+    "phone": "1234567890",
+    "createdAt": "2021-01-01T00:00:00.000Z",
+    "updatedAt": "2021-01-01T00:00:00.000Z"
+  }
 }

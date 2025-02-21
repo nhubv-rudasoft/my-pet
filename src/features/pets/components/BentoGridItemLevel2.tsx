@@ -1,6 +1,6 @@
-import {PetItem} from '../../../libs/types/pet.ts';
 import petPhoto from '../../../assets/cat.png';
-import {formatPrice} from '../../../utils/helpers.ts';
+import {PetItem} from '../types/petType.ts';
+import {formatPrice} from '../../../utils';
 
 interface BentoGridItemLevel2Props {
   petItem: PetItem;
